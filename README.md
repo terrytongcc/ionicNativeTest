@@ -10,4 +10,4 @@ Just download or clone this project, run "npm install" to install all modules, a
 
 Since I'm focused on Android platform, this may not work well on iOS platform so test and tweak as you like.
 
-For those of you who are new to Ionic, please take a look at their <a href="https://ionicframework.com/docs/intro/installation/">docs</a> to get started first.
+For those of you who are new to Ionic, please take a look at their <a href="https://ionicframework.com/docs/intro/installation/" target="_blank">docs</a> to get started first.
