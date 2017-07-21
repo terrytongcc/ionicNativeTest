@@ -1,0 +1,36 @@
+<!--
+  Generated template for the BrightnessPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-toolbar color='primary'>
+
+    <ion-buttons end right>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+      Ionic Native
+    </ion-title>
+
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<h1>Brightness Test</h1>
+
+	<ion-item>
+	  <ion-range [(ngModel)]="brightnessValue" min="0" max="10" step="1" (ionChange)="setBrightness()">
+	    <ion-icon range-left small name="sunny"></ion-icon>
+	    <ion-icon range-right name="sunny"></ion-icon>
+	  </ion-range>
+	</ion-item>
+
+</ion-content>

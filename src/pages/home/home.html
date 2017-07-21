@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color='primary'>
+
+    <ion-buttons end right>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+      Ionic Native Test
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<button ion-button large block *ngFor="let menu of menuItems" (click)="openPage(menu)">{{menu.title}}</button>
+</ion-content>

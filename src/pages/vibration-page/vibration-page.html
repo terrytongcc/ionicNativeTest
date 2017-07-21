@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color='primary'>
+
+    <ion-buttons end right>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+      Ionic Native
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<h1>Vibration Test</h1>
+	<button ion-button large block (click)="vibrate1sec()">Vibrate for 1 Sec.</button>
+	<button ion-button large block (click)="vibrateComplex()">Vibrate sequence</button>
+</ion-content>
