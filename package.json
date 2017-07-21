@@ -19,7 +19,7 @@
         "@angular/http": "4.2.4",
         "@angular/platform-browser": "4.2.4",
         "@angular/platform-browser-dynamic": "4.2.4",
-        "@angular/tsc-wrapped": "^4.2.6",
+        "@angular/tsc-wrapped": "^4.3.1",
         "@ionic-native/action-sheet": "3.12.1",
         "@ionic-native/app-preferences": "3.12.1",
         "@ionic-native/badge": "3.12.1",
@@ -27,7 +27,7 @@
         "@ionic-native/base64-to-gallery": "3.12.1",
         "@ionic-native/brightness": "3.12.1",
         "@ionic-native/camera": "3.12.1",
-        "@ionic-native/clipboard": "^4.0.0",
+        "@ionic-native/clipboard": "3.12.1",
         "@ionic-native/core": "3.12.1",
         "@ionic-native/date-picker": "3.12.1",
         "@ionic-native/deeplinks": "3.12.1",
@@ -41,7 +41,6 @@
         "@ionic-native/status-bar": "3.12.1",
         "@ionic-native/vibration": "3.12.1",
         "@ionic-native/youtube-video-player": "^3.12.1",
-        "com.bunkerpalace.cordova.YoutubeVideoPlayer": "https://github.com/Glitchbone/CordovaYoutubeVideoPlayer.git",
         "cordova-android": "^6.2.3",
         "cordova-base64-to-gallery": "^4.1.2",
         "cordova-instagram-plugin": "^0.5.5",
@@ -72,7 +71,8 @@
         "phonegap-plugin-barcodescanner": "6.0.6",
         "rxjs": "^5.4.2",
         "sw-toolbox": "3.6.0",
-        "zone.js": "0.8.12"
+        "zone.js": "0.8.12",
+        "com.bunkerpalace.cordova.YoutubeVideoPlayer": "https://github.com/Glitchbone/CordovaYoutubeVideoPlayer.git"
     },
     "devDependencies": {
         "@ionic/app-scripts": "2.0.2",
@@ -99,7 +99,6 @@
     "description": "nativeTest: Ionic Native Plugins Testing Project",
     "cordova": {
         "plugins": {
-            "com.bunkerpalace.cordova.YoutubeVideoPlayer": {},
             "cordova-plugin-badge": {},
             "cordova-plugin-brightness": {},
             "cordova-plugin-console": {},
@@ -142,7 +141,9 @@
             "cordova-base64-to-gallery": {},
             "cordova-plugin-file": {},
             "cordova-plugin-actionsheet": {},
-            "cordova-plugin-app-preferences": {}
+            "cordova-plugin-app-preferences": {},
+            "cordova-plugin-youtube-video-player": {},
+            "com.bunkerpalace.cordova.YoutubeVideoPlayer": {}
         },
         "platforms": [
             "android",
