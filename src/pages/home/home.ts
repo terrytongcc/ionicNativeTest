@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { ActionSheetPage } from '../action-sheet/action-sheet';
-import { AppPrefPage } from '../app-pref/app-pref';
 import { BadgePage } from '../badge-page/badge-page';
-import { BarcodeScannerPage } from '../barcode-scanner-page/barcode-scanner-page';
 import { BrightnessPage } from '../brightness-page/brightness-page';
 import { CameraPage } from '../camera/camera';
 import { DatePickerPage } from '../date-picker/date-picker';
@@ -31,19 +29,9 @@ export class Homepage {
         "tabIndex": 0
       },
       {
-        "title": "App Preference",
-        "page": AppPrefPage,
-        "tabIndex": 1
-      },
-      {
         "title": "Badge",
         "page": BadgePage,
         "tabIndex": 2
-      },
-      {
-        "title": "Barcode Scanner",
-        "page": BarcodeScannerPage,
-        "tabIndex": 3
       },
       {
         "title": "Brightness",

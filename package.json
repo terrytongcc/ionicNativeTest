@@ -21,9 +21,7 @@
         "@angular/platform-browser-dynamic": "4.2.4",
         "@angular/tsc-wrapped": "^4.4.6",
         "@ionic-native/action-sheet": "3.12.1",
-        "@ionic-native/app-preferences": "3.12.1",
         "@ionic-native/badge": "^3.14.0",
-        "@ionic-native/barcode-scanner": "3.12.1",
         "@ionic-native/base64-to-gallery": "3.12.1",
         "@ionic-native/brightness": "3.12.1",
         "@ionic-native/camera": "3.12.1",
@@ -41,13 +39,11 @@
         "@ionic-native/status-bar": "3.12.1",
         "@ionic-native/vibration": "3.12.1",
         "@ionic-native/youtube-video-player": "3.12.1",
-        "cordova-android": "6.4.0",
+        "cordova-android": "^7.1.4",
         "cordova-base64-to-gallery": "^4.1.3",
         "cordova-instagram-plugin": "^0.5.5",
-        "cordova-ios": "4.5.4",
         "cordova-plugin-actionsheet": "^2.3.3",
         "cordova-plugin-add-swift-support": "^1.7.1",
-        "cordova-plugin-app-preferences": "^0.99.3",
         "cordova-plugin-badge": "^0.8.7",
         "cordova-plugin-brightness": "^0.1.5",
         "cordova-plugin-camera": "^2.4.1",
@@ -58,8 +54,7 @@
         "cordova-plugin-file": "^4.3.3",
         "cordova-plugin-fingerprint-aio": "^1.3.4",
         "cordova-plugin-flashlight": "^3.2.0",
-        "cordova-plugin-ionic-keyboard": "^2.0.5",
-        "cordova-plugin-ionic-webview": "^1.1.16",
+        "cordova-plugin-ionic-webview": "^4.1.3",
         "cordova-plugin-speechrecognition": "^1.2.0",
         "cordova-plugin-splashscreen": "^4.1.0",
         "cordova-plugin-statusbar": "^2.4.1",
@@ -71,15 +66,13 @@
         "es6-promise-plugin": "^4.2.2",
         "ionic-angular": "3.5.2",
         "ionic-plugin-deeplinks": "^1.0.15",
-        "ionic-plugin-keyboard": "^2.2.1",
         "ionicons": "3.0.0",
-        "phonegap-plugin-barcodescanner": "^6.0.8",
         "rxjs": "^5.5.6",
         "sw-toolbox": "3.6.0",
         "zone.js": "0.8.12"
     },
     "devDependencies": {
-        "@ionic/app-scripts": "2.0.2",
+        "@ionic/app-scripts": "^3.2.4",
         "typescript": "2.4.1"
     },
     "cordovaPlugins": [
@@ -87,8 +80,7 @@
         "cordova-plugin-console",
         "cordova-plugin-statusbar",
         "cordova-plugin-device",
-        "cordova-plugin-splashscreen",
-        "ionic-plugin-keyboard"
+        "cordova-plugin-splashscreen"
     ],
     "cordovaPlatforms": [
         "ios",
@@ -111,10 +103,6 @@
             "cordova-plugin-statusbar": {},
             "cordova-plugin-vibration": {},
             "cordova-plugin-whitelist": {},
-            "ionic-plugin-keyboard": {},
-            "phonegap-plugin-barcodescanner": {
-                "CAMERA_USAGE_DESCRIPTION": " "
-            },
             "ionic-plugin-deeplinks": {
                 "URL_SCHEME": "nativetest",
                 "DEEPLINK_SCHEME": "https",
@@ -143,15 +131,12 @@
             "cordova-base64-to-gallery": {},
             "cordova-plugin-file": {},
             "cordova-plugin-actionsheet": {},
-            "cordova-plugin-app-preferences": {},
             "cordova-plugin-youtube-video-player": {},
             "cordova-plugin-ionic-webview": {},
-            "cordova-plugin-ionic-keyboard": {},
             "cordova-plugin-fingerprint-aio": {}
         },
         "platforms": [
-            "android",
-            "ios"
+            "android"
         ]
     }
 }

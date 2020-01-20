@@ -3,9 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { ActionSheet } from '@ionic-native/action-sheet';
-import { AppPreferences } from '@ionic-native/app-preferences';
 import { Badge } from '@ionic-native/badge';
-import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { Base64ToGallery } from '@ionic-native/base64-to-gallery';
 import { Brightness } from '@ionic-native/brightness';
 import { Camera } from '@ionic-native/camera';
@@ -24,8 +22,6 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 import { MyApp } from './app.component';
 import { Homepage } from '../pages/home/home';
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
-import { AppPrefPage } from '../pages/app-pref/app-pref';
-import { BarcodeScannerPage } from '../pages/barcode-scanner-page/barcode-scanner-page';
 import { BadgePage } from '../pages/badge-page/badge-page';
 import { BrightnessPage } from '../pages/brightness-page/brightness-page';
 import { CameraPage } from '../pages/camera/camera';
@@ -42,9 +38,7 @@ import { YoutubeVideoPlayerPage } from '../pages/youtube-video-player-page/youtu
     MyApp,
     Homepage,
     ActionSheetPage,
-    AppPrefPage,
     BadgePage,
-    BarcodeScannerPage,
     BrightnessPage,
     CameraPage,
     DatePickerPage,
@@ -63,9 +57,7 @@ import { YoutubeVideoPlayerPage } from '../pages/youtube-video-player-page/youtu
     MyApp,
     Homepage,
     ActionSheetPage,
-    AppPrefPage,
     BadgePage,
-    BarcodeScannerPage,
     BrightnessPage,
     CameraPage,
     DatePickerPage,
@@ -77,9 +69,7 @@ import { YoutubeVideoPlayerPage } from '../pages/youtube-video-player-page/youtu
   ],
   providers: [
     ActionSheet,
-    AppPreferences,
     Badge,
-    BarcodeScanner,
     Base64ToGallery,
     Brightness,
     Camera,

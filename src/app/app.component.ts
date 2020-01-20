@@ -7,9 +7,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { Homepage } from '../pages/home/home';
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
-import { AppPrefPage } from '../pages/app-pref/app-pref';
 import { BadgePage } from '../pages/badge-page/badge-page';
-import { BarcodeScannerPage } from '../pages/barcode-scanner-page/barcode-scanner-page';
 import { BrightnessPage } from '../pages/brightness-page/brightness-page';
 import { CameraPage } from '../pages/camera/camera';
 import { DatePickerPage } from '../pages/date-picker/date-picker';
@@ -44,19 +42,9 @@ export class MyApp {
         "tabIndex": 1
       },
       {
-        "title": "App Preference",
-        "page": AppPrefPage,
-        "tabIndex": 2
-      },
-      {
         "title": "Badge",
         "page": BadgePage,
         "tabIndex": 3
-      },
-      {
-        "title": "Barcode Scanner",
-        "page": BarcodeScannerPage,
-        "tabIndex": 4
       },
       {
         "title": "Brightness",
@@ -109,9 +97,7 @@ export class MyApp {
        // deeplinking settings
       this.deeplinks.route({
         '/actionsheet': ActionSheetPage,
-        '/apppref': AppPrefPage,
         '/badge': BadgePage,
-        '/barcode': BarcodeScannerPage,
         '/brightness': BrightnessPage,
         '/camera': CameraPage,
         '/datepicker': DatePickerPage,
